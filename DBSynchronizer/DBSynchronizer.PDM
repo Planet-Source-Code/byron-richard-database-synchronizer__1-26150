@@ -1,0 +1,124 @@
+[Root]
+Most Recent Package=DBSynchronizer
+
+
+[Package|DBSynchronizer|Utilities]
+Icon1=DBSynchronizer.exe
+Title1=DBSynchronizer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|DBSynchronizer|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\Install\DB Synchronizer V 1.2
+
+[Package|DBSynchronizer|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DBSynchronizer|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DBSynchronizer|Files Found]
+
+[Package|DBSynchronizer|Files Released]
+
+[Package|DBSynchronizer|Missing Dependency Information]
+C:\MSSQL7\Binn\Resources\1033\sqldmo.rll=
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\WINDIFF.EXE=
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\GUTILS.DLL=
+
+[Package|DBSynchronizer|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|DBSynchronizer|Files Added]
+e:\development\three amigos\pipeline\applications\db synchronizer\windiff.exe=
+e:\development\three amigos\pipeline\applications\db synchronizer\gutils.dll=
+
+[Package|DBSynchronizer|Files Removed]
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|DBSynchronizer|Files In Project]
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\DBSynchronizer.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\MSSQL7\Binn\Resources\1033\sqldmo.rll=Yes
+C:\WINNT\system32\Msflxgrd.ocx=Yes
+C:\WINNT\system32\mshflxgd.ocx=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\WINDIFF.EXE=Yes
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\GUTILS.DLL=Yes
+
+[Package|DBSynchronizer|Configure Registry Files]
+Applicable=No
+
+[Package|DBSynchronizer|Configure Remote Servers]
+Applicable=No
+
+[Package|DBSynchronizer|Install Locations]
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\DBSynchronizer.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\MSSQL7\Binn\Resources\1033\sqldmo.rll=$(AppPath)
+C:\WINNT\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\mshflxgd.ocx=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\WINDIFF.EXE=$(AppPath)
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\GUTILS.DLL=$(WinSysPath)
+
+[Package|DBSynchronizer|Configure Shared Files]
+Applicable=Yes
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\DBSynchronizer.exe=No
+C:\MSSQL7\Binn\Resources\1033\sqldmo.rll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\WINDIFF.EXE=No
+
+[Package|DBSynchronizer|Distribution]
+Type=single
+Size=
+Title=DBSynchronizer
+
+[Package|DBSynchronizer|IconGroups]
+Group0=Jimanii
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|DBSynchronizer|Jimanii]
+Icon1=DBSynchronizer.exe
+Title1=DBSynchronizer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|DBSynchronizer|Package]
+PackageFolder=E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\Install\DB Synchronizer V 1.2
+ProjectFolder=E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer
+ServerSideCab=
+File1=E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\Install\DB Synchronizer V 1.2\setup.exe
+File2=E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\Install\DB Synchronizer V 1.2\Setup.Lst
+File3=E:\Development\Three Amigos\Pipeline\Applications\DB Synchronizer\Install\DB Synchronizer V 1.2\DBSynchronizer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
